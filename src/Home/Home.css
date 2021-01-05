@@ -1,0 +1,19 @@
+.home {
+	position: relative;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home__pictures {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -12rem;
+}
+
+.home__image {
+	height: 400px;
+}
