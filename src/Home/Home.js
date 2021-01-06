@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import Header from "../Shared/Header/Header";
 import Footer from "../Shared/Footer/Footer";
-import Coffee from "../Assets/coffee.png";
+import Menu from "../Shared/Menu/Menu";
 
 const Home = () => {
 	return (
@@ -16,6 +16,7 @@ const Home = () => {
 					className='home__image coffee'
 					src='https://doubleshot.cafe/wp-content/themes/doubleshot/graphics/home-tiles/coffee.png'></img>
 			</div>
+			<Menu />
 			<Footer />
 		</div>
 	);
