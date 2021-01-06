@@ -13,6 +13,27 @@ const Menu = () => {
 							<span className='nav__item'>About</span>
 						</div>
 					</div>
+					<div className='nav__item-container'>
+						<div className='menu__dot'></div>
+						<div className='dot__container'>
+							<div className='menu__dot-second'></div>
+							<span className='nav__item'>Menu</span>
+						</div>
+					</div>
+					<div className='nav__item-container'>
+						<div className='menu__dot'></div>
+						<div className='dot__container'>
+							<div className='menu__dot-second'></div>
+							<span className='nav__item'>Gallery</span>
+						</div>
+					</div>
+					<div className='nav__item-container'>
+						<div className='menu__dot'></div>
+						<div className='dot__container'>
+							<div className='menu__dot-second'></div>
+							<span className='nav__item'>Contact</span>
+						</div>
+					</div>
 				</ul>
 			</nav>
 		</div>
