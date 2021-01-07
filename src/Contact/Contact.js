@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Contact.css";
 import Header from "../Shared/Header/Header";
 import Menu from "../Shared/Menu/Menu";
 import Footer from "../Shared/Footer/Footer";
+import SubHeader from "../Shared/SubHeader/SubHeader";
 
 const Contact = () => {
 	return (
@@ -13,7 +13,7 @@ const Contact = () => {
 				<div className='contact__left'>
 					<div className='contact__left-left'>
 						<div className='contact__card'>
-							<h3 className='about__header'>Find Us</h3>
+							<SubHeader title='Find Us' />
 							<p className='contact__para'>Shop 7, Deakin Court</p>
 							<p className='contact__para'>Deakin, ACT 2600</p>
 							<p className='contact__para'>
@@ -23,7 +23,7 @@ const Contact = () => {
 							</p>
 						</div>
 						<div className='contact__card'>
-							<h3 className='about__header'>Get in Touch</h3>
+							<SubHeader title='Get in Touch' />
 							<p className='contact__para'>Phone: 303-842-9931</p>
 						</div>
 						<div className='contact__social'>
@@ -33,12 +33,12 @@ const Contact = () => {
 					</div>
 					<div className='contact__left-right'>
 						<div className='contact__card'>
-							<h3 className='about__header'>Reservations</h3>
+							<SubHeader title='reservations' />
 							<p className='contact__para'>Reservations by phone.</p>
 							<p className='contact__para'>303-842-9931</p>
 						</div>
 						<div className='contact__card'>
-							<h3 className='about__header'>Opening Hours</h3>
+							<SubHeader title='Opening Hours' />
 							<p className='contact__para'>
 								<em>Weekdays</em> 6:30am - 5:00pm
 							</p>

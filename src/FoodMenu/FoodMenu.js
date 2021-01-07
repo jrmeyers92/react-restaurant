@@ -3,6 +3,8 @@ import "./FoodMenu.css";
 import Header from "../Shared/Header/Header";
 import Footer from "../Shared/Footer/Footer";
 import Menu from "../Shared/Menu/Menu";
+import SectionHeader from "../Shared/SectionHeader/SectionHeader";
+import SubHeader from "../Shared/SubHeader/SubHeader";
 
 const FoodMenu = () => {
 	return (
@@ -13,9 +15,9 @@ const FoodMenu = () => {
 					<img src='https://doubleshot.cafe/wp-content/themes/doubleshot/graphics/pancakes.png'></img>
 				</div>
 				<div className='foodMenu__right'>
-					<h2 className='foodMenu__header'>The Menu</h2>
+					<SectionHeader title='The Menu' />
 					<div className='about__blurb'>
-						<h3 className='about__blurb-header'>Breakfast</h3>
+						<SubHeader title='Breakfast' />
 						<p className='about__blurb-para'>
 							Breakfast is not just meal. It is the wondrous time of day when
 							impossible things seems possible - the signal that the day has
@@ -29,7 +31,7 @@ const FoodMenu = () => {
 					</div>
 
 					<div className='about__blurb'>
-						<h3 className='about__blurb-header'>Lunch</h3>
+						<SubHeader title='Lunch' />
 						<p className='about__blurb-para'>
 							Lunch is the daily checkpoint where you can sit and recharge,
 							encouraging your body and your mind to keep going and reach the
@@ -45,7 +47,6 @@ const FoodMenu = () => {
 			</div>
 
 			<Menu />
-			<Footer />
 		</div>
 	);
 };

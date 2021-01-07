@@ -3,6 +3,8 @@ import "./About.css";
 import Header from "../Shared/Header/Header";
 import Menu from "../Shared/Menu/Menu";
 import Footer from "../Shared/Footer/Footer";
+import SectionHeader from "../Shared/SectionHeader/SectionHeader";
+import SubHeader from "../Shared/SubHeader/SubHeader";
 
 const About = () => {
 	return (
@@ -10,9 +12,9 @@ const About = () => {
 			<Header />
 			<div className='about__content'>
 				<div className='column'>
-					<h2 className='about__header'>The Cafe</h2>
+					<SectionHeader title='The Cafe' />
 					<div className='about__blurb'>
-						<h3 className='about__blurb-header'>The Life</h3>
+						<SubHeader title='The Life' />
 						<p className='about__blurb-para'>
 							Nestled neatly in the local Deakin shops is a social hub,
 							pulsating vibrancy and life. Friendly and fun, Doubleshot indulges
@@ -24,7 +26,7 @@ const About = () => {
 					</div>
 
 					<div className='about__blurb'>
-						<h3 className='about__blurb-header'>The Food</h3>
+						<SubHeader title='The Food' />
 						<p className='about__blurb-para'>
 							Using fresh produce, innovative thinking and a customer-oriented
 							approach, you’ll feel right at home as you sit and sip on their
@@ -36,9 +38,9 @@ const About = () => {
 				</div>
 
 				<div className='column'>
-					<h2 className='about__header'>The Story</h2>
+					<SectionHeader title='The Story' />
 					<div className='about__blurb'>
-						<h3 className='about__blurb-header'>The Atmosphere</h3>
+						<SubHeader title='The Atmosphere' />
 						<p className='about__blurb-para'>
 							Complete with a hip, creative homely atmosphere, its your local
 							fix of fresh produce, innovative tailor-made menus and
@@ -50,7 +52,7 @@ const About = () => {
 					</div>
 
 					<div className='about__blurb'>
-						<h3 className='about__blurb-header'>And so it began...</h3>
+						<SubHeader title='And So it Began...' />
 						<p className='about__blurb-para'>
 							The words ‘I wake up wanting to kiss you’ are scrawled across the
 							wall, reminding us of that first cup of coffee, kissing our lips

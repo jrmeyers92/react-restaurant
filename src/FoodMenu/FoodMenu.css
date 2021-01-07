@@ -7,16 +7,6 @@
 	display: flex;
 }
 
-.foodMenu__header {
-	font-size: 1.95rem;
-	color: white;
-	letter-spacing: 4.29px;
-	font-weight: 400;
-	line-height: 23.25px;
-	margin: 3rem 0;
-	text-align: center;
-}
-
 .foodMenu__button {
 	background-color: rgb(211, 203, 192);
 	background-origin: 2px solid rgb(35, 31, 32);
@@ -26,6 +16,7 @@
 	font-weight: 700;
 	cursor: pointer;
 	text-transform: uppercase;
+	margin-top: 2.5rem;
 }
 
 .foodMenu__button:focus {
