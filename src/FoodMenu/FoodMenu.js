@@ -1,7 +1,6 @@
 import React from "react";
 import "./FoodMenu.css";
 import Header from "../Shared/Header/Header";
-import Footer from "../Shared/Footer/Footer";
 import Menu from "../Shared/Menu/Menu";
 import SectionHeader from "../Shared/SectionHeader/SectionHeader";
 import SubHeader from "../Shared/SubHeader/SubHeader";
