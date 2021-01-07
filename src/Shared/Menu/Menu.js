@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Menu.css";
 
 const Menu = () => {
@@ -6,13 +7,16 @@ const Menu = () => {
 		<div className='menu'>
 			<nav>
 				<ul>
-					<div className='nav__item-container'>
-						<div className='menu__dot'></div>
-						<div className='dot__container'>
-							<div className='menu__dot-second'></div>
-							<span className='nav__item'>About</span>
+					<Link to='/About'>
+						<div className='nav__item-container'>
+							<div className='menu__dot'></div>
+							<div className='dot__container'>
+								<div className='menu__dot-second'></div>
+								<span className='nav__item'>About</span>
+							</div>
 						</div>
-					</div>
+					</Link>
+
 					<div className='nav__item-container'>
 						<div className='menu__dot'></div>
 						<div className='dot__container'>
