@@ -40,6 +40,7 @@ const FoodMenu = () => {
 							you were served for lunch.
 						</p>
 					</div>
+					<button className='foodMenu__button'>Download Menu</button>
 				</div>
 			</div>
 

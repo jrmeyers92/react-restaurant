@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./Home/Home";
 import About from "./About/About";
 import FoodMenu from "./FoodMenu/FoodMenu";
+import Contact from "./Contact/Contact";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 				<Route path='/' exact component={Home} />
 				<Route path='/About' component={About} />
 				<Route path='/FoodMenu' component={FoodMenu} />
+				<Route path='/Contact' component={Contact} />
 			</Router>
 		</div>
 	);

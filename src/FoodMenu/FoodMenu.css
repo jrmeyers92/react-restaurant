@@ -16,3 +16,22 @@
 	margin: 3rem 0;
 	text-align: center;
 }
+
+.foodMenu__button {
+	background-color: rgb(211, 203, 192);
+	background-origin: 2px solid rgb(35, 31, 32);
+	padding: 1.3rem;
+	font-size: 1.5rem;
+	letter-spacing: 1.5px;
+	font-weight: 700;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.foodMenu__button:focus {
+	outline: 0;
+}
+
+.foodMenu__button:active {
+	transform: translateY(3px) scale(0.98);
+}

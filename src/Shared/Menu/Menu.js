@@ -32,13 +32,15 @@ const Menu = () => {
 							<span className='nav__item'>Gallery</span>
 						</div>
 					</div>
-					<div className='nav__item-container'>
-						<div className='menu__dot'></div>
-						<div className='dot__container'>
-							<div className='menu__dot-second'></div>
-							<span className='nav__item'>Contact</span>
+					<Link to='/Contact' className='link'>
+						<div className='nav__item-container'>
+							<div className='menu__dot'></div>
+							<div className='dot__container'>
+								<div className='menu__dot-second'></div>
+								<span className='nav__item'>Contact</span>
+							</div>
 						</div>
-					</div>
+					</Link>
 				</ul>
 			</nav>
 		</div>
