@@ -16,14 +16,15 @@ const Menu = () => {
 							</div>
 						</div>
 					</Link>
-
-					<div className='nav__item-container'>
-						<div className='menu__dot'></div>
-						<div className='dot__container'>
-							<div className='menu__dot-second'></div>
-							<span className='nav__item'>Menu</span>
+					<Link to='/FoodMenu' className='link'>
+						<div className='nav__item-container'>
+							<div className='menu__dot'></div>
+							<div className='dot__container'>
+								<div className='menu__dot-second'></div>
+								<span className='nav__item'>Menu</span>
+							</div>
 						</div>
-					</div>
+					</Link>
 					<div className='nav__item-container'>
 						<div className='menu__dot'></div>
 						<div className='dot__container'>

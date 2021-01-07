@@ -1,0 +1,18 @@
+.foodMenu__right {
+	margin-right: 20rem;
+	margin-left: 11rem;
+}
+
+.foodMenu__container {
+	display: flex;
+}
+
+.foodMenu__header {
+	font-size: 1.95rem;
+	color: white;
+	letter-spacing: 4.29px;
+	font-weight: 400;
+	line-height: 23.25px;
+	margin: 3rem 0;
+	text-align: center;
+}
