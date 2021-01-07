@@ -53,4 +53,9 @@
 	font-size: 1.4rem;
 	color: white;
 	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.link {
+	text-decoration: none;
 }

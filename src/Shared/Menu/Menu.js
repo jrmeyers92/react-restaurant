@@ -7,7 +7,7 @@ const Menu = () => {
 		<div className='menu'>
 			<nav>
 				<ul>
-					<Link to='/About'>
+					<Link to='/About' className='link'>
 						<div className='nav__item-container'>
 							<div className='menu__dot'></div>
 							<div className='dot__container'>
