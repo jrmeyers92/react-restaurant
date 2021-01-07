@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/jrmeyers92/react-restaurant/static/css/main.21dbf742.chunk.css",
-    "main.js": "/jrmeyers92/react-restaurant/static/js/main.fec97a46.chunk.js",
-    "main.js.map": "/jrmeyers92/react-restaurant/static/js/main.fec97a46.chunk.js.map",
-    "runtime-main.js": "/jrmeyers92/react-restaurant/static/js/runtime-main.e5b6737b.js",
-    "runtime-main.js.map": "/jrmeyers92/react-restaurant/static/js/runtime-main.e5b6737b.js.map",
-    "static/js/2.b0564a24.chunk.js": "/jrmeyers92/react-restaurant/static/js/2.b0564a24.chunk.js",
-    "static/js/2.b0564a24.chunk.js.map": "/jrmeyers92/react-restaurant/static/js/2.b0564a24.chunk.js.map",
-    "index.html": "/jrmeyers92/react-restaurant/index.html",
-    "static/css/main.21dbf742.chunk.css.map": "/jrmeyers92/react-restaurant/static/css/main.21dbf742.chunk.css.map",
-    "static/js/2.b0564a24.chunk.js.LICENSE.txt": "/jrmeyers92/react-restaurant/static/js/2.b0564a24.chunk.js.LICENSE.txt"
+    "main.css": "/react-restaurant/static/css/main.21dbf742.chunk.css",
+    "main.js": "/react-restaurant/static/js/main.fec97a46.chunk.js",
+    "main.js.map": "/react-restaurant/static/js/main.fec97a46.chunk.js.map",
+    "runtime-main.js": "/react-restaurant/static/js/runtime-main.5b7a3300.js",
+    "runtime-main.js.map": "/react-restaurant/static/js/runtime-main.5b7a3300.js.map",
+    "static/js/2.b0564a24.chunk.js": "/react-restaurant/static/js/2.b0564a24.chunk.js",
+    "static/js/2.b0564a24.chunk.js.map": "/react-restaurant/static/js/2.b0564a24.chunk.js.map",
+    "index.html": "/react-restaurant/index.html",
+    "static/css/main.21dbf742.chunk.css.map": "/react-restaurant/static/css/main.21dbf742.chunk.css.map",
+    "static/js/2.b0564a24.chunk.js.LICENSE.txt": "/react-restaurant/static/js/2.b0564a24.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5b6737b.js",
+    "static/js/runtime-main.5b7a3300.js",
     "static/js/2.b0564a24.chunk.js",
     "static/css/main.21dbf742.chunk.css",
     "static/js/main.fec97a46.chunk.js"
