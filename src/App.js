@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, HashRouter } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 import "./App.css";
 import Home from "./Home/Home";
 import About from "./About/About";
@@ -9,7 +9,7 @@ import Contact from "./Contact/Contact";
 function App() {
 	return (
 		<div className='App'>
-			<HashRouter>
+			<HashRouter basename={process.env.PUBLIC_URL}>
 				<Route path='/' exact component={Home} />
 				<Route path='/About' component={About} />
 				<Route path='/FoodMenu' component={FoodMenu} />

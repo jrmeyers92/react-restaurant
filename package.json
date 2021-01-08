@@ -1,6 +1,5 @@
 {
 	"name": "react-restaurant",
-	"homepage": "https://jrmeyers92.github.io/react-restaurant",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
